@@ -586,7 +586,7 @@
                         Hi, I'm <span class="text-teal-400">Agniva</span>
                     </h1>
                     <h2 class="text-xl md:text-2xl font-normal mb-4 text-slate-200">
-                        Graduate Student at Purdue University | Business Analytics & Data Science
+                        Graduate Student | Business Analytics & Data Science
                     </h2>
                     <p class="text-base md:text-lg text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed">
                         I'm a healthcare analytics professional with experience in Real World Data analytics,
@@ -1194,116 +1194,198 @@
             </div>
 
             <!-- Projects Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16" id="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card liquid-glass overflow-hidden"
-                    data-category="machine-learning forecasting healthcare">
-                    <div
-                        class="h-56 bg-gradient-to-br from-teal-500 via-teal-600 to-slate-700 flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black/20"></div>
-                        <i class="fas fa-chart-line text-7xl text-white opacity-90 relative z-10"></i>
-                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                            <span class="text-white text-sm font-semibold">Forecasting</span>
+            <!-- Carousel Wrapper -->
+            <!-- Projects Pagination Container -->
+            <div class="relative px-4 md:px-12">
+                <!-- Projects Grid -->
+                <div id="projects-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 min-h-[500px]">
+
+                    <!-- Project 4 -->
+                    <div class="project-card liquid-glass overflow-hidden" data-category="healthcare">
+                        <div
+                            class="h-56 bg-gradient-to-br from-slate-600 via-teal-600 to-teal-400 flex items-center justify-center relative overflow-hidden">
+                            <div class="absolute inset-0 bg-black/20"></div>
+                            <i class="fas fa-vial text-7xl text-white opacity-90 relative z-10"></i>
+                            <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                                <span class="text-white text-sm font-semibold">Drug Safety</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-white">Hypothesis Testing in Healthcare</h3>
+                            <p class="text-slate-300 mb-4 leading-relaxed">
+                                Analyzed a randomized controlled drug trial dataset to determine significant adverse
+                                reactions. Used hypothesis testing on demographic and vital sign data to evaluate drug
+                                safety profiles.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Hypothesis
+                                    Testing</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Healthcare
+                                    Analytics</span>
+                            </div>
+                            <a href="https://github.com/agniva1534/Hypothesis-Testing-in-Healthcare" target="_blank"
+                                class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
+                                View on GitHub <i
+                                    class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-3 text-white">Vaccine Market Forecasting Model</h3>
-                        <p class="text-slate-300 mb-4 leading-relaxed">
-                            Developed a predictive analytics model to forecast vaccine market trends using time series
-                            analysis and machine learning techniques. The model provides actionable insights for
-                            healthcare strategy planning and resource allocation.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Python</span>
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Forecasting</span>
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Machine
-                                Learning</span>
+
+                    <!-- Project 5 -->
+                    <div class="project-card liquid-glass overflow-hidden" data-category="healthcare machine-learning">
+                        <div
+                            class="h-56 bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-400 flex items-center justify-center relative overflow-hidden">
+                            <div class="absolute inset-0 bg-black/20"></div>
+                            <i class="fas fa-brain text-7xl text-white opacity-90 relative z-10"></i>
+                            <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                                <span class="text-white text-sm font-semibold">Mental Health</span>
+                            </div>
                         </div>
-                        <a href="#"
-                            class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
-                            View on GitHub <i
-                                class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
-                        </a>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-white">Analyzing Students' Mental Health</h3>
+                            <p class="text-slate-300 mb-4 leading-relaxed">
+                                Investigated the impact of studying abroad on mental health using data from an
+                                international
+                                university. Analyzed relationships between length of stay, social connectedness, and
+                                depression levels.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">SQL</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">PostgreSQL</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Data
+                                    Analysis</span>
+                            </div>
+                            <a href="https://github.com/agniva1534/Analyzing-Students-Mental-Health" target="_blank"
+                                class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
+                                View on GitHub <i
+                                    class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card liquid-glass overflow-hidden" data-category="healthcare machine-learning">
+                        <div
+                            class="h-56 bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-500 flex items-center justify-center relative overflow-hidden">
+                            <div class="absolute inset-0 bg-black/20"></div>
+                            <i class="fas fa-notes-medical text-7xl text-white opacity-90 relative z-10"></i>
+                            <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                                <span class="text-white text-sm font-semibold">NLP & AI</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-white">Medical Transcription with OpenAI</h3>
+                            <p class="text-slate-300 mb-4 leading-relaxed">
+                                Automated the extraction of symptoms, diagnoses, and treatments from medical transcripts
+                                using OpenAI API. Streamlined ICD-10 coding and insurance billing workflows.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">OpenAI
+                                    API</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">NLP</span>
+                            </div>
+                            <a href="https://github.com/agniva1534/Organizing-Medical-Transcription-with-OpenAI-API"
+                                target="_blank"
+                                class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
+                                View on GitHub <i
+                                    class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+                    <div class="project-card liquid-glass overflow-hidden" data-category="healthcare">
+                        <div
+                            class="h-56 bg-gradient-to-br from-rose-600 via-red-500 to-orange-500 flex items-center justify-center relative overflow-hidden">
+                            <div class="absolute inset-0 bg-black/20"></div>
+                            <i class="fas fa-heartbeat text-7xl text-white opacity-90 relative z-10"></i>
+                            <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                                <span class="text-white text-sm font-semibold">Heart Health</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-white">Heart Rate Analysis</h3>
+                            <p class="text-slate-300 mb-4 leading-relaxed">
+                                Modeled heart disease likelihood using the Cleveland dataset. Analyzed the correlation
+                                between maximum heart rate during exercise, age, and other cardiac health indicators.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Statistics</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">R/Python</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Modeling</span>
+                            </div>
+                            <a href="https://github.com/agniva1534/What-is-Your-Heart-Rate-Telling-You-" target="_blank"
+                                class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
+                                View on GitHub <i
+                                    class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 -->
+                    <div class="project-card liquid-glass overflow-hidden"
+                        data-category="data-visualization healthcare">
+                        <div
+                            class="h-56 bg-gradient-to-br from-blue-600 via-cyan-500 to-teal-400 flex items-center justify-center relative overflow-hidden">
+                            <div class="absolute inset-0 bg-black/20"></div>
+                            <i class="fas fa-globe-americas text-7xl text-white opacity-90 relative z-10"></i>
+                            <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                                <span class="text-white text-sm font-semibold">Global Trends</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-white">Global Life Expectancy Trends</h3>
+                            <p class="text-slate-300 mb-4 leading-relaxed">
+                                Visualized global life expectancy data to uncover biological and lifestyle drivers
+                                behind
+                                gender longevity gaps and cross-country trends over time.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Data
+                                    Viz</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Analytics</span>
+                                <span
+                                    class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Global
+                                    Health</span>
+                            </div>
+                            <a href="https://github.com/agniva1534/Exploring-Global-Life-Expectancy-Trends"
+                                target="_blank"
+                                class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
+                                View on GitHub <i
+                                    class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="project-card liquid-glass overflow-hidden" data-category="data-visualization healthcare">
-                    <div
-                        class="h-56 bg-gradient-to-br from-slate-700 via-slate-600 to-teal-500 flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black/20"></div>
-                        <i class="fas fa-map-marked-alt text-7xl text-white opacity-90 relative z-10"></i>
-                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                            <span class="text-white text-sm font-semibold">Analytics</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-3 text-white">SafeGraph Foot Traffic Analytics Dashboard
-                        </h3>
-                        <p class="text-slate-300 mb-4 leading-relaxed">
-                            Created an interactive dashboard analyzing foot traffic patterns using SafeGraph data.
-                            Provides real-time insights for retail and healthcare location analytics with advanced
-                            filtering and visualization capabilities.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Tableau</span>
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">SQL</span>
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">BigQuery</span>
-                        </div>
-                        <a href="#"
-                            class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
-                            View on GitHub <i
-                                class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card liquid-glass overflow-hidden" data-category="data-visualization">
-                    <div
-                        class="h-56 bg-gradient-to-br from-teal-600 via-teal-500 to-slate-600 flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black/20"></div>
-                        <i class="fas fa-film text-7xl text-white opacity-90 relative z-10"></i>
-                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                            <span class="text-white text-sm font-semibold">EDA</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-3 text-white">Netflix Global Content Analytics</h3>
-                        <p class="text-slate-300 mb-4 leading-relaxed">
-                            Analyzed Netflix's global content library using Python and Pandas. Performed comprehensive
-                            EDA to identify content trends, regional preferences, and strategic insights for content
-                            strategy optimization.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Python</span>
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">Pandas</span>
-                            <span
-                                class="bg-teal-900/50 text-teal-200 border border-teal-500/30 px-3 py-1 rounded-full text-sm font-medium">EDA</span>
-                        </div>
-                        <a href="#"
-                            class="text-teal-600 font-semibold hover:text-teal-700 flex items-center gap-2 group">
-                            View on GitHub <i
-                                class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"></i>
-                        </a>
-                    </div>
-                </div>
+                <!-- Navigation Buttons -->
+                <button id="prev-page"
+                    class="absolute top-1/2 -left-2 md:-left-5 transform -translate-y-1/2 bg-slate-800/80 text-white p-4 rounded-full shadow-lg hover:bg-teal-600 transition-all z-20 backdrop-blur-sm border border-white/10 group">
+                    <i class="fas fa-chevron-left text-xl group-hover:scale-110 transition-transform"></i>
+                </button>
+                <button id="next-page"
+                    class="absolute top-1/2 -right-2 md:-right-5 transform -translate-y-1/2 bg-slate-800/80 text-white p-4 rounded-full shadow-lg hover:bg-teal-600 transition-all z-20 backdrop-blur-sm border border-white/10 group">
+                    <i class="fas fa-chevron-right text-xl group-hover:scale-110 transition-transform"></i>
+                </button>
             </div>
 
-            <div class="text-center">
-                <a href="https://github.com/agniva-mondal" target="_blank"
-                    class="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-teal-800 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-teal-500 hover:to-teal-700 transition duration-300 shadow-lg shadow-teal-500/20">
-                    View All Projects on GitHub <i class="fab fa-github"></i>
-                </a>
-            </div>
+
 
 
         </div>
@@ -1835,16 +1917,18 @@
                         <p class="text-slate-700 mb-6">Feel free to reach out through any of these channels. I typically
                             respond within 24 hours.</p>
                         <div class="space-y-4">
-                            <a href="mailto:ssagniva1534@gmail.com"
-                                class="flex items-center gap-4 p-5 liquid-glass bg-white/70 hover:bg-white/90 transition duration-300">
+                            <div id="email-copy-btn"
+                                class="cursor-pointer flex items-center gap-4 p-5 liquid-glass bg-white/70 hover:bg-white/90 transition duration-300">
                                 <div class="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center">
                                     <i class="fas fa-envelope text-xl text-teal-400"></i>
                                 </div>
                                 <div>
                                     <p class="font-semibold text-slate-900">Email</p>
                                     <p class="text-slate-700 text-sm">ssagniva1534@gmail.com</p>
+                                    <p class="text-teal-600 text-xs mt-1 font-semibold opacity-0 transition-opacity duration-300"
+                                        id="email-copied-msg">Copied to clipboard!</p>
                                 </div>
-                            </a>
+                            </div>
                             <a href="https://linkedin.com/in/agnivamondal1534" target="_blank"
                                 class="flex items-center gap-4 p-5 liquid-glass bg-white/70 hover:bg-white/90 transition duration-300">
                                 <div class="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center">
@@ -1855,14 +1939,14 @@
                                     <p class="text-slate-700 text-sm">linkedin.com/in/agnivamondal1534</p>
                                 </div>
                             </a>
-                            <a href="https://github.com/agniva-mondal" target="_blank"
+                            <a href="https://github.com/agniva1534" target="_blank"
                                 class="flex items-center gap-4 p-5 liquid-glass bg-white/70 hover:bg-white/90 transition duration-300">
                                 <div class="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center">
                                     <i class="fab fa-github text-xl text-teal-400"></i>
                                 </div>
                                 <div>
                                     <p class="font-semibold text-slate-900">GitHub</p>
-                                    <p class="text-slate-700 text-sm">github.com/agniva-mondal</p>
+                                    <p class="text-slate-700 text-sm">github.com/agniva1534</p>
                                 </div>
                             </a>
                         </div>
@@ -1879,15 +1963,16 @@
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-gray-400">&copy; 2025 Agniva Mondal. All rights reserved.</p>
                 <div class="flex items-center gap-6">
-                    <a href="mailto:ssagniva1534@gmail.com"
-                        class="text-gray-400 hover:text-teal-400 transition duration-300" aria-label="Email">
+                    <button id="footer-email-btn"
+                        class="text-gray-400 hover:text-teal-400 transition duration-300 focus:outline-none"
+                        aria-label="Copy Email">
                         <i class="fas fa-envelope text-2xl"></i>
-                    </a>
+                    </button>
                     <a href="https://linkedin.com/in/agnivamondal1534" target="_blank"
                         class="text-gray-400 hover:text-teal-400 transition duration-300" aria-label="LinkedIn">
                         <i class="fab fa-linkedin text-2xl"></i>
                     </a>
-                    <a href="https://github.com/agniva-mondal" target="_blank"
+                    <a href="https://github.com/agniva1534" target="_blank"
                         class="text-gray-400 hover:text-teal-400 transition duration-300" aria-label="GitHub">
                         <i class="fab fa-github text-2xl"></i>
                     </a>
@@ -2045,6 +2130,176 @@
 
             navObserver.observe(contactSection);
         }
+
+
+        // Projects Pagination Logic
+        const paginationProjectCards = document.querySelectorAll('.project-card');
+        const prevPageBtn = document.getElementById('prev-page');
+        const nextPageBtn = document.getElementById('next-page');
+        const projectsGrid = document.getElementById('projects-grid');
+
+        // Configuration
+        let currentPage = 0;
+        let itemsPerPage = 3;
+
+        // Function to determine items per page based on screen width
+        function updateItemsPerPage() {
+            if (window.innerWidth < 768) {
+                itemsPerPage = 1; // Mobile: 1 item per page
+            } else if (window.innerWidth < 1024) {
+                itemsPerPage = 2; // Tablet: 2 items per page
+            } else {
+                itemsPerPage = 3; // Desktop: 3 items per page
+            }
+            updateProjectsVisibility();
+        }
+
+        // Initialize and listen for resize
+        updateItemsPerPage();
+        window.addEventListener('resize', updateItemsPerPage);
+
+        function updateProjectsVisibility() {
+            // Filter logic considerations: If a filter is active, pagination should respect it
+            // For simplicity, we assume "All" is active or we paginate the *visible* list.
+            // Let's interact with existing filter logic.
+
+            // Get all visible cards (those not hidden by category filter)
+            // Note: The existing filter logic adds 'hidden' class. We need to distinguish between
+            // filter-hidden and pagination-hidden.
+            // Strategy: We will let the Filter function decide what is "candidate" for display,
+            // and Pagination function decides which subset of candidates to show.
+            // But to avoid conflict with existing filter script which toggles 'hidden',
+            // we might need to modify the filter script or integrate them.
+
+            // SIMPLIFIED APPROACH:
+            // The existing filter script removes/adds 'hidden'.
+            // We will modify the filter script to stored "filtered-out" state separately?
+            // Actually, let's just paginate the currently visible set.
+            // But wait, the previous filter script runs on click.
+
+            // Let's grab all cards.
+            const allCards = Array.from(document.querySelectorAll('.project-card'));
+
+            // Check active filter
+            const activeFilterBtn = document.querySelector('.filter-btn.active');
+            const filterValue = activeFilterBtn ? activeFilterBtn.getAttribute('data-filter') : 'all';
+
+            // Get items that Match the filter
+            const filteredCards = allCards.filter(card => {
+                const categories = card.getAttribute('data-category');
+                if (filterValue === 'all') return true;
+                return categories && categories.includes(filterValue);
+            });
+
+            // Calculate Total Pages
+            const totalPages = Math.ceil(filteredCards.length / itemsPerPage);
+
+            // Ensure current page is valid
+            if (currentPage >= totalPages) currentPage = Math.max(0, totalPages - 1);
+
+            // Hide ALL cards first (both filter mismatch AND pagination mismatch)
+            allCards.forEach(card => card.classList.add('hidden'));
+
+            // Show only cards for current page from the filtered set
+            const start = currentPage * itemsPerPage;
+            const end = start + itemsPerPage;
+
+            filteredCards.slice(start, end).forEach(card => {
+                card.classList.remove('hidden');
+                // Add a fade-in effect
+                card.style.opacity = '0';
+                setTimeout(() => card.style.opacity = '1', 50);
+            });
+
+            // Update Buttons State
+            if (prevPageBtn && nextPageBtn) {
+                prevPageBtn.style.opacity = currentPage === 0 ? '0.5' : '1';
+                prevPageBtn.style.pointerEvents = currentPage === 0 ? 'none' : 'auto';
+
+                nextPageBtn.style.opacity = currentPage >= totalPages - 1 ? '0.5' : '1';
+                nextPageBtn.style.pointerEvents = currentPage >= totalPages - 1 ? 'none' : 'auto';
+            }
+        }
+
+        if (prevPageBtn && nextPageBtn) {
+            prevPageBtn.addEventListener('click', () => {
+                if (currentPage > 0) {
+                    currentPage--;
+                    updateProjectsVisibility();
+                }
+            });
+
+            nextPageBtn.addEventListener('click', () => {
+                // Recalculate total pages to be safe
+                const activeFilterBtn = document.querySelector('.filter-btn.active');
+                const filterValue = activeFilterBtn ? activeFilterBtn.getAttribute('data-filter') : 'all';
+                const allCards = Array.from(document.querySelectorAll('.project-card'));
+                const filteredCards = allCards.filter(card => {
+                    const categories = card.getAttribute('data-category');
+                    return filterValue === 'all' || (categories && categories.includes(filterValue));
+                });
+                const totalPages = Math.ceil(filteredCards.length / itemsPerPage);
+
+                if (currentPage < totalPages - 1) {
+                    currentPage++;
+                    updateProjectsVisibility();
+                }
+            });
+        }
+
+        // INTEGRATE WITH FILTER BUTTONS
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // The existing listener toggles classes. We adding ours to reset page.
+                setTimeout(() => {
+                    currentPage = 0;
+                    updateProjectsVisibility();
+                }, 10); // slightly delay to let existing click handler update 'active' class
+            });
+        });
+
+
+        // Email Copy Functionality
+        function copyEmailToClipboard() {
+            const email = 'ssagniva1534@gmail.com';
+            navigator.clipboard.writeText(email).then(() => {
+                // Show feedback on the main contact card
+                const msg = document.getElementById('email-copied-msg');
+                if (msg) {
+                    msg.style.opacity = '1';
+                    setTimeout(() => {
+                        msg.style.opacity = '0';
+                    }, 2000);
+                }
+
+                // Optional: Show a global toast or alert if needed, but the inline message is cleaner.
+                // For the footer button, we might want a simple alert or just rely on the user knowing it worked?
+                // Let's add a simple tooltip text change for the footer if possible, or just a quick alert relative to the footer?
+                // For simplicity and effectiveness across the site:
+                // If it was the footer button, maybe we can just alert nicely or do nothing if the UI is minimal.
+                // Let's stick to the inline message for the main card.
+            }).catch(err => {
+                console.error('Failed to copy email: ', err);
+            });
+        }
+
+        const emailCopyBtn = document.getElementById('email-copy-btn');
+        const footerEmailBtn = document.getElementById('footer-email-btn');
+
+        if (emailCopyBtn) {
+            emailCopyBtn.addEventListener('click', copyEmailToClipboard);
+        }
+
+        if (footerEmailBtn) {
+            footerEmailBtn.addEventListener('click', () => {
+                const email = 'ssagniva1534@gmail.com';
+                navigator.clipboard.writeText(email).then(() => {
+                    alert('Email copied to clipboard!');
+                });
+            });
+        }
+
     </script>
 </body>
 
