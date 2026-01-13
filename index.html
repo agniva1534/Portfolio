@@ -209,6 +209,8 @@
             margin-bottom: 2rem;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
+            word-break: break-word;
+            overflow-wrap: break-word;
         }
 
         .experience-item:hover {
@@ -247,7 +249,7 @@
             }
 
             .timeline-line {
-                left: 15px;
+                left: 19px;
             }
 
             .experience-side {
@@ -486,7 +488,7 @@
                 border: 1px solid rgba(255, 255, 255, 0.1);
                 border-radius: 0.75rem;
                 /* rounded-xl */
-                padding: 1.5rem;
+                padding: 1.25rem;
                 /* Match education padding */
                 margin-top: 1rem;
             }
@@ -547,18 +549,18 @@
                     </a>
                 </div>
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white">
+                <button id="mobile-menu-btn" class="md:hidden text-white">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-3 pb-4">
-                <a href="#home" class="block py-2 nav-link text-gray-700 font-medium">Home</a>
-                <a href="#experience" class="block py-2 nav-link text-gray-700 font-medium">Experience</a>
-                <a href="#education" class="block py-2 nav-link text-gray-700 font-medium">Education</a>
-                <a href="#projects" class="block py-2 nav-link text-gray-700 font-medium">Projects</a>
-                <a href="#skills" class="block py-2 nav-link text-gray-700 font-medium">Skills</a>
-                <a href="#contact" class="block py-2 nav-link text-gray-700 font-medium">Contact</a>
+                <a href="#home" class="block py-2 nav-link text-white font-medium">Home</a>
+                <a href="#experience" class="block py-2 nav-link text-white font-medium">Experience</a>
+                <a href="#education" class="block py-2 nav-link text-white font-medium">Education</a>
+                <a href="#projects" class="block py-2 nav-link text-white font-medium">Projects</a>
+                <a href="#skills" class="block py-2 nav-link text-white font-medium">Skills</a>
+                <a href="#contact" class="block py-2 nav-link text-white font-medium">Contact</a>
                 <a href="assets/Agniva_Mondal_Resume.pdf" download
                     class="block bg-teal-600 text-white px-6 py-2 rounded-lg font-semibold text-center mt-4">Download
                     Resume</a>
@@ -635,7 +637,7 @@
                     <div class="timeline-line"></div>
                     <div class="space-y-12">
                         <!-- Experience Item 1 - Current -->
-                        <div class="timeline-item relative pl-16 md:pl-20">
+                        <div class="timeline-item relative pl-12 md:pl-20">
                             <div
                                 class="absolute left-0 top-0 w-10 h-10 bg-teal-600 rounded-full border-4 border-slate-900 shadow-lg flex items-center justify-center z-10 experience-icon">
                                 <i class="fas fa-briefcase text-white text-sm"></i>
@@ -679,7 +681,7 @@
                         </div>
 
                         <!-- Experience Item 2 - IQVIA -->
-                        <div class="timeline-item relative pl-16 md:pl-20">
+                        <div class="timeline-item relative pl-12 md:pl-20">
                             <div
                                 class="absolute left-0 top-0 w-10 h-10 bg-teal-600 rounded-full border-4 border-slate-900 shadow-lg flex items-center justify-center z-10 experience-icon">
                                 <i class="fas fa-briefcase text-white text-sm"></i>
@@ -725,7 +727,7 @@
                         </div>
 
                         <!-- Experience Item 3 - Genpact -->
-                        <div class="timeline-item relative pl-16 md:pl-20">
+                        <div class="timeline-item relative pl-12 md:pl-20">
                             <div
                                 class="absolute left-0 top-0 w-10 h-10 bg-teal-600 rounded-full border-4 border-slate-900 shadow-lg flex items-center justify-center z-10 experience-icon">
                                 <i class="fas fa-briefcase text-white text-sm"></i>
@@ -755,7 +757,7 @@
                         </div>
 
                         <!-- Experience Item 4 - AlphaMeld -->
-                        <div class="timeline-item relative pl-16 md:pl-20">
+                        <div class="timeline-item relative pl-12 md:pl-20">
                             <div
                                 class="absolute left-0 top-0 w-10 h-10 bg-teal-600 rounded-full border-4 border-slate-900 shadow-lg flex items-center justify-center z-10 experience-icon">
                                 <i class="fas fa-briefcase text-white text-sm"></i>
@@ -1039,7 +1041,7 @@
                     <div class="timeline-line"></div>
                     <div class="space-y-12">
                         <!-- Education Item 1 -->
-                        <div class="timeline-item relative pl-16 md:pl-20">
+                        <div class="timeline-item relative pl-12 md:pl-20">
                             <div
                                 class="absolute left-0 top-0 w-10 h-10 bg-teal-600 rounded-full border-4 border-white shadow-lg flex items-center justify-center z-10">
                                 <i class="fas fa-graduation-cap text-white text-lg"></i>
@@ -1092,7 +1094,7 @@
                         </div>
 
                         <!-- Education Item 2 - Amity University -->
-                        <div class="timeline-item relative pl-16 md:pl-20">
+                        <div class="timeline-item relative pl-12 md:pl-20">
                             <div
                                 class="absolute left-0 top-0 w-10 h-10 bg-teal-600 rounded-full border-4 border-white shadow-lg flex items-center justify-center z-10">
                                 <i class="fas fa-graduation-cap text-white text-lg"></i>
@@ -2178,7 +2180,7 @@
 
         // Animate progress bars on scroll
         const observerOptions = {
-            threshold: 0.3,
+            threshold: 0.1,
             rootMargin: '0px'
         };
 
